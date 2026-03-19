@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+@theme {
+  --color-surface-0: #090C14;
+  --color-surface-1: #0F1320;
+  --color-surface-2: #161B2E;
+  --color-surface-3: #1E2640;
+  --color-border-dim: rgba(255,255,255,0.06);
+  --color-border-mid: rgba(255,255,255,0.10);
+  --color-border-bright: rgba(255,255,255,0.18);
+  --color-text-primary: #F0F2F8;
+  --color-text-secondary: #8892A4;
+  --color-text-muted: #4A5568;
+  --color-amber: #F59E0B;
+  --color-amber-dim: rgba(245,158,11,0.15);
+  --color-amber-glow: rgba(245,158,11,0.25);
+  --color-danger: #EF4444;
+  --color-success: #22C55E;
+  --font-display: 'Syne', sans-serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: rgba(255,255,255,0.06);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #090C14;
+  color: #F0F2F8;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+}
+
+::selection { background: rgba(245,158,11,0.25); }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #090C14; }
+::-webkit-scrollbar-thumb { background: #1E2640; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #283550; }
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid rgba(245,158,11,0.5);
+  outline-offset: 2px;
+}
+
+input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-visible {
+  outline: 2px solid rgba(245,158,11,0.5);
+  outline-offset: 2px;
+}

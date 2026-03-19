@@ -1,0 +1,206 @@
+{
+  "Mumbai": {
+    "days": [
+      {
+        "date": "DAY_1",
+        "events": [
+          { "time": "09:00", "duration_minutes": 90, "type": "activity", "title": "Gateway of India & Taj Palace Walk", "description": "Start your trip with Mumbai's most iconic landmark. Walk along the waterfront and admire the colonial architecture.", "location": "Apollo Bandar, Colaba", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "11:00", "duration_minutes": 60, "type": "food", "title": "Breakfast at Leopold Cafe", "description": "Historic cafe since 1871. Try the Eggs Benedict and fresh juices.", "location": "Colaba Causeway", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "12:30", "duration_minutes": 120, "type": "activity", "title": "Colaba Causeway Shopping", "description": "Browse antiques, jewellery, and local crafts along this vibrant street.", "location": "Colaba Causeway", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "15:00", "duration_minutes": 30, "type": "break", "title": "Chai Break at Irani Cafe", "description": "Rest your feet with a refreshing cutting chai and bun maska.", "location": "Cafe Mondegar, Colaba", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "16:00", "duration_minutes": 120, "type": "activity", "title": "Marine Drive Sunset Walk", "description": "Stroll along the Queen's Necklace as the sun sets over the Arabian Sea.", "location": "Marine Drive", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "19:00", "duration_minutes": 90, "type": "food", "title": "Dinner at Bademiya", "description": "Mumbai's legendary late-night kebab spot. Must try the Seekh Kebab rolls.", "location": "Tulloch Road", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "14:30", "end": "15:00", "durationMinutes": 30 }]
+      },
+      {
+        "date": "DAY_2",
+        "events": [
+          { "time": "07:00", "duration_minutes": 60, "type": "activity", "title": "Morning Jog at Jogger's Park", "description": "Sea-facing jogging track in Bandra West. Fresh air and stunning views.", "location": "Jogger's Park, Bandra", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "09:00", "duration_minutes": 120, "type": "activity", "title": "Bandra Street Art Walk", "description": "Explore colourful murals and graffiti in Bandra's lanes.", "location": "Bandra West", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "12:00", "duration_minutes": 90, "type": "food", "title": "Lunch at Bastian", "description": "Modern seafood restaurant with stunning interiors.", "location": "Bandra West", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "14:30", "duration_minutes": 180, "type": "activity", "title": "Sanjay Gandhi National Park & Kanheri Caves", "description": "Ancient Buddhist caves inside a lush national park.", "location": "Borivali East", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "18:30", "duration_minutes": 30, "type": "break", "title": "Sunset Chai", "description": "Relax with a cup of chai and reflect on the day.", "location": "Carter Road, Bandra", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "20:00", "duration_minutes": 120, "type": "activity", "title": "Prithvi Theatre Show", "description": "Catch a play at Mumbai's beloved intimate theatre.", "location": "Juhu Church Road", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "08:00", "end": "09:00", "durationMinutes": 60 }]
+      },
+      {
+        "date": "DAY_3",
+        "events": [
+          { "time": "10:00", "duration_minutes": 120, "type": "activity", "title": "Dharavi Creative Tour", "description": "Guided tour of Asia's largest creative economy. See pottery, recycling, and leather workshops.", "location": "Dharavi", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:00", "duration_minutes": 90, "type": "food", "title": "Street Food Trail", "description": "Vada pav, pani puri, and pav bhaji at Girgaon Chowpatty.", "location": "Chowpatty Beach", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "15:00", "duration_minutes": 120, "type": "activity", "title": "Chor Bazaar Treasure Hunt", "description": "Hunt for antiques and vintage finds in Mumbai's famous flea market.", "location": "Mutton Street, Chor Bazaar", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "17:30", "duration_minutes": 30, "type": "break", "title": "Breathing Room", "description": "Rest at a nearby cafe before dinner.", "location": "Cafe Universal, Fort", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "19:00", "duration_minutes": 120, "type": "food", "title": "Farewell Dinner at The Table", "description": "Farm-to-table dining with panoramic Mumbai views.", "location": "Colaba", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "09:00", "end": "10:00", "durationMinutes": 60 }]
+      }
+    ],
+    "documentChecklist": ["Valid passport (6+ months validity)", "Return flight tickets", "Hotel booking confirmation", "Travel insurance", "COVID vaccination certificate (if applicable)"],
+    "culturalNudges": ["Remove shoes before entering temples", "Dress modestly at religious sites", "Haggling is expected at street markets", "Tipping 10% at restaurants is customary", "Avoid tap water — drink bottled water"]
+  },
+  "Singapore": {
+    "days": [
+      {
+        "date": "DAY_1",
+        "events": [
+          { "time": "09:00", "duration_minutes": 120, "type": "activity", "title": "Marina Bay Sands & SkyPark", "description": "Start with the iconic infinity pool views from the SkyPark observation deck.", "location": "10 Bayfront Avenue", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "11:30", "duration_minutes": 90, "type": "activity", "title": "Gardens by the Bay", "description": "Walk through Supertree Grove and Cloud Forest. Don't miss the waterfall.", "location": "18 Marina Gardens Drive", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:30", "duration_minutes": 60, "type": "food", "title": "Lunch at Hawker Chan", "description": "World's cheapest Michelin-starred meal. Try the Soya Sauce Chicken.", "location": "78 Smith Street", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "15:00", "duration_minutes": 120, "type": "activity", "title": "Chinatown Heritage Walk", "description": "Explore temples, shophouses, and traditional medicine halls.", "location": "Chinatown", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "17:30", "duration_minutes": 30, "type": "break", "title": "Tea Break", "description": "Cool down with a teh tarik at a nearby kopitiam.", "location": "Maxwell Road", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "19:00", "duration_minutes": 120, "type": "food", "title": "Dinner at Newton Food Centre", "description": "Hawker centre feast — satay, chilli crab, carrot cake.", "location": "500 Clemenceau Avenue", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": []
+      },
+      {
+        "date": "DAY_2",
+        "events": [
+          { "time": "09:00", "duration_minutes": 180, "type": "activity", "title": "Sentosa Island", "description": "Beach, Universal Studios, or S.E.A. Aquarium. Take the cable car.", "location": "Sentosa Gateway", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:00", "duration_minutes": 60, "type": "food", "title": "Lunch at Vivo City", "description": "Waterfront mall with diverse food options.", "location": "1 Harbourfront Walk", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "15:00", "duration_minutes": 120, "type": "activity", "title": "Singapore Botanic Gardens", "description": "UNESCO World Heritage Site. Visit the National Orchid Garden.", "location": "1 Cluny Road", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "17:30", "duration_minutes": 30, "type": "break", "title": "Breathing Room", "description": "Rest at a garden cafe.", "location": "Botanic Gardens", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "19:00", "duration_minutes": 120, "type": "food", "title": "Cocktails at Long Bar, Raffles", "description": "Home of the Singapore Sling. Colonial elegance.", "location": "1 Beach Road", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "14:00", "end": "15:00", "durationMinutes": 60 }]
+      },
+      {
+        "date": "DAY_3",
+        "events": [
+          { "time": "09:00", "duration_minutes": 120, "type": "activity", "title": "Little India Walking Tour", "description": "Vibrant colours, spice shops, and Sri Veeramakaliamman Temple.", "location": "Serangoon Road", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "11:30", "duration_minutes": 90, "type": "food", "title": "Brunch at Tekka Centre", "description": "Authentic Indian hawker food — roti prata, biryani, masala dosa.", "location": "665 Buffalo Road", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "14:00", "duration_minutes": 120, "type": "activity", "title": "ArtScience Museum", "description": "Interactive digital art exhibition by teamLab.", "location": "6 Bayfront Avenue", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "16:30", "duration_minutes": 30, "type": "break", "title": "Coffee Break", "description": "Specialty coffee at a local roaster.", "location": "Raffles Place", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "18:00", "duration_minutes": 120, "type": "activity", "title": "Clarke Quay Evening", "description": "Riverside dining and nightlife. Great sunset views.", "location": "Clarke Quay", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "13:00", "end": "14:00", "durationMinutes": 60 }]
+      }
+    ],
+    "documentChecklist": ["Valid passport (6+ months validity)", "Return flight tickets", "Hotel booking confirmation", "SG Arrival Card (submit online before departure)", "Travel insurance recommended"],
+    "culturalNudges": ["Chewing gum is banned", "No eating/drinking on MRT trains (fine up to SGD 500)", "Tipping is not expected", "Jaywalking is fined", "Carry an umbrella — tropical showers are frequent"]
+  },
+  "London": {
+    "days": [
+      {
+        "date": "DAY_1",
+        "events": [
+          { "time": "09:30", "duration_minutes": 180, "type": "activity", "title": "British Museum", "description": "One of the world's greatest museums. Free entry. Start with the Rosetta Stone.", "location": "Great Russell St", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:00", "duration_minutes": 90, "type": "food", "title": "Lunch at Borough Market", "description": "London's oldest food market. Try the grilled cheese and fresh oysters.", "location": "8 Southwark St", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "15:00", "duration_minutes": 120, "type": "activity", "title": "Tate Modern", "description": "Free modern art gallery in a converted power station. Views from Level 10.", "location": "Bankside", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "17:30", "duration_minutes": 30, "type": "break", "title": "Tea Time", "description": "Traditional afternoon tea at a nearby cafe.", "location": "Southbank Centre", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "19:00", "duration_minutes": 120, "type": "food", "title": "Dinner at Dishoom", "description": "Bombay-inspired cafe. The bacon naan is legendary.", "location": "5 Stable Street, King's Cross", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": []
+      },
+      {
+        "date": "DAY_2",
+        "events": [
+          { "time": "08:00", "duration_minutes": 60, "type": "activity", "title": "Hyde Park Morning Run", "description": "Jog around the Serpentine. Fresh air in the heart of London.", "location": "Hyde Park", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "10:00", "duration_minutes": 180, "type": "activity", "title": "Tower of London", "description": "Crown Jewels, Beefeaters, and 1000 years of history.", "location": "Tower Hill", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:30", "duration_minutes": 60, "type": "food", "title": "Fish & Chips at Poppies", "description": "Award-winning fish and chips in Spitalfields.", "location": "6-8 Hanbury St", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "15:00", "duration_minutes": 120, "type": "activity", "title": "Sky Garden", "description": "Free rooftop garden with panoramic London views.", "location": "20 Fenchurch Street", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "17:30", "duration_minutes": 30, "type": "break", "title": "Breathing Room", "description": "Rest at a local pub.", "location": "Fenchurch Street", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "19:00", "duration_minutes": 120, "type": "food", "title": "Dinner at The Ivy", "description": "Iconic West End restaurant. Smart casual dress code.", "location": "1-5 West Street", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "09:00", "end": "10:00", "durationMinutes": 60 }]
+      },
+      {
+        "date": "DAY_3",
+        "events": [
+          { "time": "10:00", "duration_minutes": 120, "type": "activity", "title": "Camden Market", "description": "Eclectic market with street food, vintage fashion, and live music.", "location": "Camden Lock Place", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "12:30", "duration_minutes": 90, "type": "food", "title": "Lunch at Camden Market", "description": "Global street food — try the Thai, Ethiopian, or Venezuelan stalls.", "location": "Camden Market", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "14:30", "duration_minutes": 120, "type": "activity", "title": "Regent's Park & Primrose Hill", "description": "Beautiful gardens and the best skyline view in London.", "location": "Regent's Park", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "17:00", "duration_minutes": 30, "type": "break", "title": "Pub Break", "description": "Classic British pub experience.", "location": "Primrose Hill", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "18:30", "duration_minutes": 150, "type": "activity", "title": "West End Show", "description": "Catch a musical or play in London's Theatre District.", "location": "West End", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "09:00", "end": "10:00", "durationMinutes": 60 }]
+      }
+    ],
+    "documentChecklist": ["Valid passport", "UK visa (if applicable)", "Travel insurance", "Hotel booking confirmation", "Oyster card or contactless payment for transport"],
+    "culturalNudges": ["Stand on the right on escalators", "Queue etiquette is taken seriously", "Tipping 10-15% at restaurants", "Pubs often stop serving food by 21:00", "Weather is unpredictable — always carry a layer"]
+  },
+  "New York": {
+    "days": [
+      {
+        "date": "DAY_1",
+        "events": [
+          { "time": "09:00", "duration_minutes": 180, "type": "activity", "title": "The Metropolitan Museum of Art", "description": "World-class art spanning 5000 years. Start with Egyptian Temple of Dendur.", "location": "1000 Fifth Avenue", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "12:30", "duration_minutes": 60, "type": "food", "title": "Lunch at Joe's Pizza", "description": "Iconic NYC pizza since 1975. Get a classic cheese slice.", "location": "7 Carmine Street", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "14:00", "duration_minutes": 120, "type": "activity", "title": "High Line Walk", "description": "Elevated park on retired railway tracks with art installations.", "location": "Gansevoort Street", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "16:30", "duration_minutes": 30, "type": "break", "title": "Coffee Break", "description": "Specialty coffee at a Chelsea cafe.", "location": "Chelsea Market", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "18:00", "duration_minutes": 120, "type": "activity", "title": "Times Square at Night", "description": "Experience the neon-lit energy of the Crossroads of the World.", "location": "Broadway & 7th Avenue", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "20:30", "duration_minutes": 90, "type": "food", "title": "Dinner in Hell's Kitchen", "description": "Diverse restaurant row with every cuisine imaginable.", "location": "9th Avenue, Hell's Kitchen", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": []
+      },
+      {
+        "date": "DAY_2",
+        "events": [
+          { "time": "07:00", "duration_minutes": 90, "type": "activity", "title": "Central Park Morning Run", "description": "Jog the reservoir loop with Manhattan skyline views.", "location": "Central Park", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "10:00", "duration_minutes": 120, "type": "activity", "title": "Brooklyn Bridge Walk", "description": "Walk from Brooklyn to Manhattan. Stop for photos at DUMBO.", "location": "Brooklyn Bridge", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "12:30", "duration_minutes": 90, "type": "food", "title": "DUMBO Food Scene", "description": "Grimaldi's pizza or Time Out Market Brooklyn.", "location": "DUMBO, Brooklyn", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "15:00", "duration_minutes": 30, "type": "break", "title": "Breathing Room", "description": "Rest at Brooklyn Bridge Park with Manhattan views.", "location": "Brooklyn Bridge Park", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "16:00", "duration_minutes": 120, "type": "activity", "title": "SoHo Shopping", "description": "Cast-iron architecture and designer boutiques.", "location": "SoHo", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "19:00", "duration_minutes": 120, "type": "food", "title": "Dinner at Le Bernardin", "description": "World-class seafood. 3 Michelin stars. Jacket required.", "location": "155 West 51st Street", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "08:30", "end": "10:00", "durationMinutes": 90 }]
+      },
+      {
+        "date": "DAY_3",
+        "events": [
+          { "time": "10:00", "duration_minutes": 120, "type": "activity", "title": "Statue of Liberty & Ellis Island", "description": "Book ferry tickets in advance. Allow the full morning.", "location": "Liberty Island", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:00", "duration_minutes": 60, "type": "food", "title": "Lunch at Sweetgreen", "description": "Healthy fast-casual. Great for a quick nutritious meal.", "location": "1164 Broadway", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "14:30", "duration_minutes": 120, "type": "activity", "title": "9/11 Memorial & Museum", "description": "Powerful and moving. Allow 2 hours minimum.", "location": "180 Greenwich Street", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "17:00", "duration_minutes": 30, "type": "break", "title": "Rooftop Break", "description": "Enjoy views from a Financial District rooftop bar.", "location": "Financial District", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "18:30", "duration_minutes": 150, "type": "activity", "title": "Broadway Show", "description": "Catch a hit musical on Broadway.", "location": "Theater District", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "09:00", "end": "10:00", "durationMinutes": 60 }]
+      }
+    ],
+    "documentChecklist": ["Valid passport", "ESTA or US visa", "Travel insurance", "Hotel booking confirmation", "Printed/digital copies of return flights"],
+    "culturalNudges": ["Tipping 18-20% is expected at restaurants", "Subway runs 24/7 but can be unreliable late night", "Jaywalking is common but technically illegal", "Sales tax (8.875%) is added at checkout, not shown on price tags", "Carry ID — some bars card everyone"]
+  },
+  "Tokyo": {
+    "days": [
+      {
+        "date": "DAY_1",
+        "events": [
+          { "time": "09:00", "duration_minutes": 120, "type": "activity", "title": "Senso-ji Temple", "description": "Tokyo's oldest temple. Walk through Kaminarimon Gate and Nakamise-dori.", "location": "2-3-1 Asakusa", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "11:30", "duration_minutes": 90, "type": "food", "title": "Sushi Breakfast at Tsukiji", "description": "Fresh sushi and seafood at the outer market.", "location": "4-16-2 Tsukiji", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:30", "duration_minutes": 120, "type": "activity", "title": "Meiji Jingu Shrine", "description": "Serene forested shrine in the heart of Shibuya. Bow at the torii.", "location": "1-1 Yoyogikamizonocho", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "16:00", "duration_minutes": 30, "type": "break", "title": "Matcha Break", "description": "Traditional matcha and wagashi at a tea house.", "location": "Harajuku", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "17:00", "duration_minutes": 120, "type": "activity", "title": "Harajuku & Takeshita Street", "description": "Youth fashion, crepe shops, and kawaii culture.", "location": "Harajuku", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "19:30", "duration_minutes": 90, "type": "food", "title": "Ramen at Ichiran", "description": "Solo booth ramen — fill out the preference sheet for your perfect bowl.", "location": "1-22-7 Jinnan, Shibuya", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": []
+      },
+      {
+        "date": "DAY_2",
+        "events": [
+          { "time": "09:00", "duration_minutes": 120, "type": "activity", "title": "Shibuya Crossing & Hachiko", "description": "World's busiest intersection. Photo from Starbucks above.", "location": "Shibuya Station", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "11:30", "duration_minutes": 90, "type": "food", "title": "Tonkatsu at Maisen", "description": "Famous tonkatsu in a converted bathhouse. Heritage vibes.", "location": "4-8-5 Jingumae", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "13:30", "duration_minutes": 120, "type": "activity", "title": "Shimokitazawa", "description": "Bohemian neighbourhood — vintage shops, vinyl records, indie cafes.", "location": "Setagaya", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "16:00", "duration_minutes": 30, "type": "break", "title": "Coffee at Bear Pond", "description": "Legendary third-wave coffee shop.", "location": "Shimokitazawa", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "17:00", "duration_minutes": 120, "type": "activity", "title": "Roppongi Hills & Mori Art Museum", "description": "Contemporary art with panoramic Tokyo views from the Sky Deck.", "location": "6 Roppongi", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "19:30", "duration_minutes": 120, "type": "food", "title": "Izakaya in Shinjuku", "description": "Japanese pub culture. Order yakitori, edamame, and sake.", "location": "Omoide Yokocho, Shinjuku", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": []
+      },
+      {
+        "date": "DAY_3",
+        "events": [
+          { "time": "08:00", "duration_minutes": 60, "type": "activity", "title": "Morning at Yoyogi Park", "description": "Peaceful morning walk or jog through Tokyo's green lung.", "location": "Yoyogi Park", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "10:00", "duration_minutes": 120, "type": "activity", "title": "Akihabara Electric Town", "description": "Anime, manga, electronics, and gaming culture.", "location": "Akihabara", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "12:30", "duration_minutes": 60, "type": "food", "title": "Conveyor Belt Sushi", "description": "Fun and affordable kaitenzushi experience.", "location": "Akihabara", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "14:00", "duration_minutes": 120, "type": "activity", "title": "teamLab Borderless", "description": "Immersive digital art experience. Book in advance.", "location": "Azabudai Hills", "isGapSuggestion": false, "isBreathingRoom": false },
+          { "time": "16:30", "duration_minutes": 30, "type": "break", "title": "Breathing Room", "description": "Rest with a cold brew.", "location": "Azabudai Hills", "isGapSuggestion": false, "isBreathingRoom": true },
+          { "time": "18:00", "duration_minutes": 120, "type": "food", "title": "Farewell Dinner at Gonpachi", "description": "The restaurant that inspired Kill Bill. Yakitori and soba.", "location": "1-13-11 Nishi-Azabu", "isGapSuggestion": false, "isBreathingRoom": false }
+        ],
+        "freeGaps": [{ "start": "09:00", "end": "10:00", "durationMinutes": 60 }]
+      }
+    ],
+    "documentChecklist": ["Valid passport (6+ months validity)", "Japan visa (if applicable — many countries have visa exemption)", "Japan Rail Pass (if travelling between cities)", "Pocket WiFi or eSIM (essential for navigation)", "Travel insurance", "Cash (many places are cash-only)"],
+    "culturalNudges": ["Bow when greeting — depth indicates formality", "Remove shoes when entering homes or traditional restaurants", "Don't eat while walking", "Silence phones on trains", "Tipping is not practiced and can be seen as rude", "Separate your rubbish — recycling is strict"]
+  }
+}

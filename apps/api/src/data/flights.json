@@ -1,0 +1,39 @@
+{
+  "flights": [
+    { "flightNumber": "SQ421", "airline": "Singapore Airlines", "origin": "BOM", "destination": "SIN", "departure": "08:00", "arrival": "16:30", "duration": "5h 30m", "price": 450, "seatsAvailable": 42, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "SQ423", "airline": "Singapore Airlines", "origin": "BOM", "destination": "SIN", "departure": "11:30", "arrival": "20:00", "duration": "5h 30m", "price": 380, "seatsAvailable": 15, "amenities": ["wifi", "meals"] },
+    { "flightNumber": "AI955", "airline": "Air India", "origin": "BOM", "destination": "SIN", "departure": "14:00", "arrival": "22:15", "duration": "5h 15m", "price": 320, "seatsAvailable": 28, "amenities": ["meals", "entertainment"] },
+    { "flightNumber": "6E089", "airline": "IndiGo", "origin": "BOM", "destination": "SIN", "departure": "06:15", "arrival": "14:30", "duration": "5h 15m", "price": 250, "seatsAvailable": 55, "amenities": ["meals"] },
+    { "flightNumber": "TG318", "airline": "Thai Airways", "origin": "BOM", "destination": "SIN", "departure": "23:30", "arrival": "07:45", "duration": "5h 15m", "price": 410, "seatsAvailable": 8, "amenities": ["wifi", "meals", "lounge"] },
+
+    { "flightNumber": "SQ321", "airline": "Singapore Airlines", "origin": "SIN", "destination": "LHR", "departure": "09:00", "arrival": "15:30", "duration": "13h 30m", "price": 890, "seatsAvailable": 32, "amenities": ["wifi", "meals", "entertainment", "lounge"] },
+    { "flightNumber": "BA12", "airline": "British Airways", "origin": "SIN", "destination": "LHR", "departure": "22:00", "arrival": "04:30", "duration": "13h 30m", "price": 820, "seatsAvailable": 18, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "QF2", "airline": "Qantas", "origin": "SIN", "destination": "LHR", "departure": "01:30", "arrival": "07:45", "duration": "13h 15m", "price": 950, "seatsAvailable": 12, "amenities": ["wifi", "meals", "entertainment", "lounge"] },
+    { "flightNumber": "EK405", "airline": "Emirates", "origin": "SIN", "destination": "LHR", "departure": "16:00", "arrival": "22:15", "duration": "13h 15m", "price": 780, "seatsAvailable": 45, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "SQ319", "airline": "Singapore Airlines", "origin": "SIN", "destination": "LHR", "departure": "12:00", "arrival": "18:30", "duration": "13h 30m", "price": 870, "seatsAvailable": 22, "amenities": ["wifi", "meals", "entertainment", "lounge"] },
+
+    { "flightNumber": "BA178", "airline": "British Airways", "origin": "LHR", "destination": "JFK", "departure": "10:00", "arrival": "13:00", "duration": "8h 00m", "price": 650, "seatsAvailable": 35, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "VS3", "airline": "Virgin Atlantic", "origin": "LHR", "destination": "JFK", "departure": "14:30", "arrival": "17:30", "duration": "8h 00m", "price": 580, "seatsAvailable": 20, "amenities": ["wifi", "meals", "entertainment", "bar"] },
+    { "flightNumber": "AA101", "airline": "American Airlines", "origin": "LHR", "destination": "JFK", "departure": "08:00", "arrival": "11:00", "duration": "8h 00m", "price": 620, "seatsAvailable": 42, "amenities": ["wifi", "meals"] },
+    { "flightNumber": "DL1", "airline": "Delta", "origin": "LHR", "destination": "JFK", "departure": "17:00", "arrival": "20:00", "duration": "8h 00m", "price": 700, "seatsAvailable": 10, "amenities": ["wifi", "meals", "entertainment", "lounge"] },
+    { "flightNumber": "UA928", "airline": "United Airlines", "origin": "LHR", "destination": "JFK", "departure": "12:00", "arrival": "15:00", "duration": "8h 00m", "price": 550, "seatsAvailable": 28, "amenities": ["wifi", "meals"] },
+
+    { "flightNumber": "JL5", "airline": "Japan Airlines", "origin": "JFK", "destination": "NRT", "departure": "13:00", "arrival": "16:00", "duration": "14h 00m", "price": 1100, "seatsAvailable": 18, "amenities": ["wifi", "meals", "entertainment", "lounge"] },
+    { "flightNumber": "NH9", "airline": "ANA", "origin": "JFK", "destination": "NRT", "departure": "11:00", "arrival": "14:00", "duration": "14h 00m", "price": 980, "seatsAvailable": 25, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "DL7", "airline": "Delta", "origin": "JFK", "destination": "NRT", "departure": "17:30", "arrival": "20:30", "duration": "14h 00m", "price": 920, "seatsAvailable": 30, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "UA79", "airline": "United Airlines", "origin": "JFK", "destination": "NRT", "departure": "10:00", "arrival": "13:00", "duration": "14h 00m", "price": 880, "seatsAvailable": 38, "amenities": ["wifi", "meals"] },
+    { "flightNumber": "AA139", "airline": "American Airlines", "origin": "JFK", "destination": "NRT", "departure": "14:00", "arrival": "17:00", "duration": "14h 00m", "price": 950, "seatsAvailable": 15, "amenities": ["wifi", "meals", "entertainment"] },
+
+    { "flightNumber": "AI306", "airline": "Air India", "origin": "NRT", "destination": "BOM", "departure": "21:00", "arrival": "04:30", "duration": "10h 30m", "price": 680, "seatsAvailable": 40, "amenities": ["meals", "entertainment"] },
+    { "flightNumber": "JL747", "airline": "Japan Airlines", "origin": "NRT", "destination": "BOM", "departure": "10:30", "arrival": "18:00", "duration": "10h 30m", "price": 750, "seatsAvailable": 12, "amenities": ["wifi", "meals", "entertainment", "lounge"] },
+    { "flightNumber": "TG643", "airline": "Thai Airways", "origin": "NRT", "destination": "BOM", "departure": "17:00", "arrival": "00:30", "duration": "10h 30m", "price": 620, "seatsAvailable": 30, "amenities": ["wifi", "meals"] },
+    { "flightNumber": "SQ12", "airline": "Singapore Airlines", "origin": "NRT", "destination": "BOM", "departure": "08:00", "arrival": "15:30", "duration": "10h 30m", "price": 700, "seatsAvailable": 22, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "CX734", "airline": "Cathay Pacific", "origin": "NRT", "destination": "BOM", "departure": "14:00", "arrival": "21:30", "duration": "10h 30m", "price": 660, "seatsAvailable": 18, "amenities": ["wifi", "meals", "entertainment"] },
+
+    { "flightNumber": "EK511", "airline": "Emirates", "origin": "DEL", "destination": "DXB", "departure": "04:00", "arrival": "06:30", "duration": "3h 30m", "price": 280, "seatsAvailable": 60, "amenities": ["wifi", "meals", "entertainment"] },
+    { "flightNumber": "AI995", "airline": "Air India", "origin": "DEL", "destination": "DXB", "departure": "10:00", "arrival": "12:30", "duration": "3h 30m", "price": 220, "seatsAvailable": 35, "amenities": ["meals"] },
+    { "flightNumber": "6E1407", "airline": "IndiGo", "origin": "DEL", "destination": "DXB", "departure": "14:00", "arrival": "16:30", "duration": "3h 30m", "price": 190, "seatsAvailable": 48, "amenities": ["meals"] },
+    { "flightNumber": "FZ042", "airline": "flydubai", "origin": "DEL", "destination": "DXB", "departure": "21:30", "arrival": "00:00", "duration": "3h 30m", "price": 210, "seatsAvailable": 25, "amenities": ["meals", "entertainment"] },
+    { "flightNumber": "SG25", "airline": "SpiceJet", "origin": "DEL", "destination": "DXB", "departure": "07:00", "arrival": "09:30", "duration": "3h 30m", "price": 175, "seatsAvailable": 42, "amenities": ["meals"] }
+  ]
+}

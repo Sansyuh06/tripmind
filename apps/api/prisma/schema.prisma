@@ -1,0 +1,107 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String    @id @default(uuid())
+  email          String    @unique
+  name           String
+  passwordHash   String
+  preferredLang  String    @default("en")
+  tripPurpose    String    @default("leisure")
+  dietaryPref    String?
+  seatPreference String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  trips          Trip[]
+  expenses       Expense[]
+}
+
+model Trip {
+  id          String         @id @default(uuid())
+  userId      String
+  user        User           @relation(fields: [userId], references: [id])
+  destination String
+  startDate   DateTime
+  endDate     DateTime
+  status      String         @default("active")
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  itinerary   ItineraryDay[]
+  flights     FlightBooking[]
+  hotels      HotelBooking[]
+
+  @@index([userId])
+  @@index([status])
+}
+
+model ItineraryDay {
+  id        String   @id @default(uuid())
+  tripId    String
+  trip      Trip     @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  date      DateTime
+  events    String   @default("[]")
+  freeGaps  String   @default("[]")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([tripId])
+  @@index([date])
+}
+
+model FlightBooking {
+  id               String   @id @default(uuid())
+  tripId           String
+  trip             Trip     @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  flightNumber     String
+  origin           String
+  destination      String
+  departureTime    DateTime
+  arrivalTime      DateTime
+  airline          String
+  status           String   @default("confirmed")
+  price            Float    @default(0)
+  confirmationCode String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([tripId])
+  @@index([status])
+}
+
+model HotelBooking {
+  id               String   @id @default(uuid())
+  tripId           String
+  trip             Trip     @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  hotelName        String
+  checkIn          DateTime
+  checkOut         DateTime
+  confirmationCode String?
+  status           String   @default("confirmed")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([tripId])
+}
+
+model Expense {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  tripId      String?
+  amount      Float
+  currency    String   @default("USD")
+  category    String
+  description String
+  receiptText String?
+  date        DateTime @default(now())
+  createdAt   DateTime @default(now())
+
+  @@index([userId])
+  @@index([tripId])
+}
